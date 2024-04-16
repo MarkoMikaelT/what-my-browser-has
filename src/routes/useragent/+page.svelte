@@ -1,5 +1,5 @@
 <script>
-    import {getUseAgent} from '$lib';
+    import { getUseAgent } from '$lib';
     import { getContext, onMount } from 'svelte';
     const updateTitle = getContext("updateTitle")
     

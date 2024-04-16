@@ -18,4 +18,7 @@
 	<h1>
 		This is about
 	</h1>
+	<p>
+		This is mainly just a practice site to tryout svelte and play around :)
+	</p>
 </section>
