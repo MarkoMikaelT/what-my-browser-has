@@ -12,6 +12,7 @@
         <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/useragent">UserAgent</a>
+        <a href="/geolocation">Location</a>
     </nav>
 </header>
 
