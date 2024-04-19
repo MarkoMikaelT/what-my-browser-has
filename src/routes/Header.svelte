@@ -1,6 +1,7 @@
 <!-- Header.svelte -->
 <script>
-	import { getContext} from 'svelte';
+	import { base } from '$app/paths';
+import { getContext} from 'svelte';
     const {title} = getContext('my-title')
 </script>
 
@@ -9,10 +10,10 @@
         {$title}
     </h1>
     <nav class="header-page-items">
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/useragent">UserAgent</a>
-        <a href="/geolocation">Location</a>
+        <a href={base}>Home</a>
+        <a href={base + "/about"}>About</a>
+        <a href={base + "/useragent"}>UserAgent</a>
+        <a href={base + "/geolocation"}>Location</a>
     </nav>
 </header>
 
