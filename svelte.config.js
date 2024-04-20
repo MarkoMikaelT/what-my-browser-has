@@ -14,8 +14,6 @@ const config = {
 		adapter: adapter(),
 			paths: {
 				base: process.argv.includes('dev') ? '/what-my-browser-has' : process.env.BASE_PATH
-				// base: process.env.NODE_ENV === 'production' ?  process.env.BASE_PATH : '/markomikaelt.github.io/what-my-browser-has'
-				
 			}
 		
 	}

@@ -12,8 +12,6 @@ import { getContext} from 'svelte';
     <nav class="header-page-items">
         <a href={base}>Home</a>
         <a href={base + "/about"}>About</a>
-        <a href={base + "/useragent"}>UserAgent</a>
-        <a href={base + "/geolocation"}>Location</a>
     </nav>
 </header>
 

@@ -34,3 +34,10 @@ function errorLocation(err: GeolocationPositionError){
     return err.message
 }
 //#endregion
+
+export async function getMedia() {
+    await navigator.mediaDevices.getUserMedia({audio: true, video: true})
+    
+    const md = await navigator.mediaDevices.enumerateDevices()
+    return md
+}
